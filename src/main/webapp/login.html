@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Autenticador</title>
+</head>
+<body>
+<a href="#"> Inicio </a> | 
+<a href="UsuarioController.do?acao=lis"> Lista de Usuário </a> |
+<a href="UsuarioController.do?acao=cad"> Cadastro de Usuário </a> |
+<a href="autenticador.do"> Sair</a>
+
+<br>
+<form method="post" action="autenticador.do">
+	<fieldset>
+		<legend>Autenticar</legend>
+		Login: <input name="login" type="text" value="" />
+		Senha: <input name="senha" type="password" value="" />
+		<input type="submit" value="Autenticar" />
+	</fieldset>
+</form>
+</body>
+</html>
